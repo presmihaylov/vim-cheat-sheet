@@ -1,0 +1,20 @@
+{
+  "installMethod": "unknown",
+  "autoUpdates": true,
+  "userID": "d9fe63a017dadbacd9001eaffd9654e84715bbcedc610bf13bd8e0fd43b7e976",
+  "firstStartTime": "2025-08-02T14:09:02.127Z",
+  "projects": {
+    "/Users/pmihaylov/prg/ccpg/vim-cheat-sheet": {
+      "allowedTools": [],
+      "history": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false
+    }
+  }
+}
