@@ -133,3 +133,73 @@ For it, you have to supply the number **after** the command. Also, you have to s
 e.g. **d4(right)** will delete the next 4 characterx starting from the cursor.  
   
 e.g. **d4$** will delete the next 4 lines.  
+
+## Extra Tips & Tricks
+
+### Quick Navigation
+gg - go to first line of file
+G - go to last line of file
+{number}G - go to specific line number
+Ctrl+f - page down
+Ctrl+b - page up
+Ctrl+d - scroll down half page
+Ctrl+u - scroll up half page
+
+### Advanced Editing
+J - join current line with next line
+gU{motion} - make text uppercase (e.g. gUw for word)
+gu{motion} - make text lowercase (e.g. guiw for inner word)
+~ - toggle case of character under cursor
+Ctrl+a - increment number under cursor
+Ctrl+x - decrement number under cursor
+
+### Visual Mode Tips
+v - character-wise visual mode
+V - line-wise visual mode
+Ctrl+v - block visual mode (column selection)
+gv - reselect last visual selection
+o - move to other end of selection
+
+### Working with Registers
+"ay - yank into register 'a'
+"ap - paste from register 'a'
+"+ - system clipboard register
+:reg - view all registers
+
+### Marks & Jumps
+ma - set mark 'a' at current position
+'a - jump to line of mark 'a'
+`a - jump to exact position of mark 'a'
+'' - jump back to last position
+Ctrl+o - jump to previous location
+Ctrl+i - jump to next location
+
+### Macros
+qa - start recording macro into register 'a'
+q - stop recording macro
+@a - execute macro from register 'a'
+@@ - repeat last executed macro
+
+### Window Management
+:split or :sp - horizontal split
+:vsplit or :vsp - vertical split
+Ctrl+w w - switch between windows
+Ctrl+w h/j/k/l - navigate to window in direction
+Ctrl+w = - make all windows equal size
+Ctrl+w _ - maximize current window height
+Ctrl+w | - maximize current window width
+
+### Useful Settings
+:set number - show line numbers
+:set relativenumber - show relative line numbers
+:set ignorecase - case insensitive search
+:set smartcase - case sensitive if uppercase used
+:set hlsearch - highlight search results
+:noh - clear search highlighting
+
+### File Navigation
+:e {filename} - open file for editing
+:bn - next buffer
+:bp - previous buffer
+:ls - list all buffers
+gf - go to file under cursor
